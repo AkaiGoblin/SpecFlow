@@ -61,6 +61,7 @@ namespace TechTalk.SpecFlow.RuntimeTests.AssistTests
 
                 typeof(ArrayValueRetriever),
                 typeof(ListValueRetriever),
+                typeof(ReadOnlyCollectionRetriever),
             };
 
             var service = new Service();
