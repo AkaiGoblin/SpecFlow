@@ -1,4 +1,5 @@
-﻿using TechTalk.SpecFlow.Assist.ValueRetrievers;
+﻿using System.Collections.ObjectModel;
+using TechTalk.SpecFlow.Assist.ValueRetrievers;
 
 namespace TechTalk.SpecFlow.Assist
 {
@@ -29,6 +30,7 @@ namespace TechTalk.SpecFlow.Assist
 
             Register(new ArrayValueRetriever());
             Register(new ListValueRetriever());
+            Register(new ReadOnlyCollectionRetriever());
         }
     }
 }
